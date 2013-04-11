@@ -132,7 +132,6 @@ typedef ptrdiff_t lin;
 #define LIN_MAX PTRDIFF_MAX
 verify (TYPE_SIGNED (lin));
 verify (sizeof (ptrdiff_t) <= sizeof (lin));
-verify (sizeof (lin) <= sizeof (long int));
 
 /* This section contains POSIX-compliant defaults for macros
    that are meant to be overridden by hand in config.h as needed.  */
